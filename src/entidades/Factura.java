@@ -30,9 +30,7 @@ public class Factura {
 
     @Override
     public String toString() {
-        return "Factura{" +
-                "fusuario=" + fusuario +
-                ", fprodcuto=" + fprodcuto +
-                '}';
+        return String.format("🧾 Usuario: %-10s | Producto: %-15s | Precio: $%,.2f",
+                fusuario.getName(), fprodcuto.getNombre(), fprodcuto.getPrecio());
     }
 }

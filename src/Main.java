@@ -38,30 +38,34 @@ public class Main {
 
 
 
-        System.out.println("___________________________________");
-        System.out.println("Mostrar Users");
-        System.out.println("___________________________________");
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("                  📋 USUARIOS                     ");
+        System.out.println("══════════════════════════════════════════════════");
         listaUsuarios.getAlluser();
-        System.out.println("___________________________________");
-        System.out.println("Mostrar todo los productos");
-        System.out.println("___________________________________");
-        producto1.getAllProdcuts();
-        System.out.println("___________________________________");
 
-        System.out.println("___________________________________");
-        System.out.println("FACTURAS");
-        System.out.println("___________________________________");
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("                 🛍️ PRODUCTOS                     ");
+        System.out.println("══════════════════════════════════════════════════");
+        producto1.getAllProdcuts();
+
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("                   🧾 FACTURAS                     ");
+        System.out.println("══════════════════════════════════════════════════");
         facturas.getAllFacturas();
-        System.out.println("___________________________________");
-        System.out.println("TOTAL POR USUARIO");
-        System.out.println("___________________________________");
+
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("              👤 TOTAL POR USUARIO                 ");
+        System.out.println("══════════════════════════════════════════════════");
         facturas.mostrarfacturaporxUsuario();
-        System.out.println("___________________________________");
-        System.out.println("TOTAL DE FACTURAS");
-        System.out.println(facturas.totaldefacturas());
-        System.out.println("___________________________________");
-        System.out.println("___________________________________");
-        System.out.println("___________________________________");
+
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("                 💰 TOTAL GENERAL                  ");
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.printf("Total de todas las facturas: $%,.2f%n", facturas.totaldefacturas());
+
+        System.out.println("══════════════════════════════════════════════════");
+        System.out.println("                   ✅ FIN DEL REPORTE              ");
+        System.out.println("══════════════════════════════════════════════════");
 
     }
 }

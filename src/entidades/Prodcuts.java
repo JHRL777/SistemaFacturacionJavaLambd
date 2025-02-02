@@ -48,10 +48,6 @@ public class Prodcuts {
 
     @Override
     public String toString() {
-        return "Prodcuts{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", precio=" + precio +
-                '}';
+        return String.format("🛒 ID: %-3d | Producto: %-15s | Precio: $%,.2f", id, nombre, precio);
     }
 }

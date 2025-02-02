@@ -45,9 +45,6 @@ public class Users  {
 
     @Override
     public String toString() {
-        return "Users{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return String.format("👤 ID: %-3d | Nombre: %s", id, name);
     }
 }
