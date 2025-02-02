@@ -1,6 +1,6 @@
 # 🧾 Sistema de Facturación en Java
 
-![Java](https://img.shields.io/badge/Java-17-%23ED8B00?logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-21-%23ED8B00?logo=java&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-%2300C7B7)
 ![Status](https://img.shields.io/badge/Status-Completado-%2300C853)
 
@@ -23,5 +23,6 @@ Este proyecto es un sistema de facturación desarrollado en Java que permite ges
 - **📋 Listas (`List`):** Para almacenar y gestionar usuarios, productos y facturas.
 - **📜 Interfaces:** Para definir contratos que deben implementar las clases.
 - **⚙️ Clases estáticas:** Para métodos utilitarios que no dependen de instancias.
+- **🧬 Herencia:** Para reutilizar y extender funcionalidades entre clases.
 - **🧩 Programación orientada a objetos (POO):** Para modelar usuarios, productos y facturas como objetos.
 
