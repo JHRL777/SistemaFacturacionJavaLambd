@@ -1,7 +1,6 @@
 # 🧾 Sistema de Facturación en Java
 
 ![Java](https://img.shields.io/badge/Java-21-%23ED8B00?logo=java&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-%2300C7B7)
 ![Status](https://img.shields.io/badge/Status-Completado-%2300C853)
 
 Este proyecto es un sistema de facturación desarrollado en Java que permite gestionar usuarios, productos y facturas. Utiliza conceptos avanzados de Java como **expresiones lambda**, **listas**, **interfaces**, **clases estáticas** y **programación orientada a objetos**.
