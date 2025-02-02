@@ -25,3 +25,7 @@ Este proyecto es un sistema de facturación desarrollado en Java que permite ges
 - **🧬 Herencia:** Para reutilizar y extender funcionalidades entre clases.
 - **🧩 Programación orientada a objetos (POO):** Para modelar usuarios, productos y facturas como objetos.
 
+---
+
+
+![img princial](img.png)
